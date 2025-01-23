@@ -157,7 +157,7 @@ def SingleClient():
     singleModel = YOLO('model.yaml')
     singleModel.to(GlobalVariables.DEVICE)
     # ModelParameters.init_seed(YOLO('model.yaml'), "WeightPath/"+str(0)+"/seed.pkl")
-    singleModel.train(data='YOLOConfigClient0.yaml', epochs = 1000,imgsz=672,rect=True, device = 0 if torch.cuda.is_available() else 'cpu')
+    singleModel.train(data='YOLOConfigClientCentralServer.yaml', epochs = 1000,imgsz=672,rect=True, device = 0 if torch.cuda.is_available() else 'cpu')
     finished = True
     # # singleModel.train(data='YOLOConfigClient0.yaml',imgsz=672,rect=True, epochs=30,device=GlobalVariables.DEVICE)
     # result = singleModel.val(data='YOLOConfigClientCentralServer.yaml',imgsz=672,rect=True,device = 0 if torch.cuda.is_available() else 'cpu')
@@ -218,7 +218,7 @@ if __name__ == "__main__":
    #      run_script_in_new_terminal('CreateConfiguration.py', ['--arg1', str(i)])
    #endregion
    # StartSimulation()
-   # SingleClient() 
+   SingleClient() 
    # FeatureExtractionClient.RunPassiveClient("0") 
    # print(torch.__version__) 
    # backend_config = {"client_resources": {"num_cpus": 1, "num_gpus": 0.0}}
@@ -237,4 +237,4 @@ if __name__ == "__main__":
    # predictImageObjectYOLO() 
    # Utility.ReadWriteFile() 
    # calculateElsapedTime()
-   print("Hello world")
+   # print("Hello world")
