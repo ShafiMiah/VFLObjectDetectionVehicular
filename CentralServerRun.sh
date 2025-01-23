@@ -16,5 +16,7 @@ pip install ultralytics
 pip install torch
 pip install torchvision
 pip install opencv-python-headless
+
+flower --port=5555 &
 #run VFL training
 python VFLFinal.py
