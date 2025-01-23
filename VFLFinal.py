@@ -218,7 +218,7 @@ if __name__ == "__main__":
    #      run_script_in_new_terminal('CreateConfiguration.py', ['--arg1', str(i)])
    #endregion
    # StartSimulation()
-   SingleClient() 
+   # SingleClient() 
    # FeatureExtractionClient.RunPassiveClient("0") 
    # print(torch.__version__) 
    # backend_config = {"client_resources": {"num_cpus": 1, "num_gpus": 0.0}}
@@ -237,4 +237,4 @@ if __name__ == "__main__":
    # predictImageObjectYOLO() 
    # Utility.ReadWriteFile() 
    # calculateElsapedTime()
-x=1
+   print("Hello world")
