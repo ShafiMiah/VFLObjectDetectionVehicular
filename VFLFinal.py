@@ -157,7 +157,7 @@ def SingleClient():
     singleModel = YOLO('model.yaml')
     singleModel.to(GlobalVariables.DEVICE)
     # ModelParameters.init_seed(YOLO('model.yaml'), "WeightPath/"+str(0)+"/seed.pkl")
-    singleModel.train(data='YOLOConfigClientCentralServer.yaml', epochs = 1000,imgsz=672,rect=True, device = 0 if torch.cuda.is_available() else 'cpu')
+    singleModel.train(data='YOLOConfigClientCentralServer.yaml', epochs = 1000,imgsz=672,rect=True, device = "0")
     finished = True
     # # singleModel.train(data='YOLOConfigClient0.yaml',imgsz=672,rect=True, epochs=30,device=GlobalVariables.DEVICE)
     # result = singleModel.val(data='YOLOConfigClientCentralServer.yaml',imgsz=672,rect=True,device = 0 if torch.cuda.is_available() else 'cpu')
