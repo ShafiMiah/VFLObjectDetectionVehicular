@@ -1,0 +1,9 @@
+# Configuration for YOLOv8 Model and Dataset Paths
+# Adjust settings here to define model size, class details, and dataset paths
+
+model_size: nano  # Options: nano, small, medium, large, x-large
+num_classes: 9    # Number of classes
+class_names: ['Pedestrian', 'Truck', 'Car','Cyclist','DontCare', 'Misc', 'Van', 'Tram', 'Person_sitting']
+#train: KITTIDataset/CentralServer/train/images  # Configure paths (usually not needed to be configured)
+#val: KITTIDataset/CentralServer/valid/images
+#test: KITTIDataset/CentralServer/valid/images

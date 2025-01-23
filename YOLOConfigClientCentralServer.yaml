@@ -1,0 +1,14 @@
+train: KITTIDataset/CentralServer/train/images
+val: KITTIDataset/CentralServer/valid/images
+test: KITTIDataset/CentralServer/valid/images
+nc: 9
+names:
+  0: Pedestrian
+  1: Truck
+  2: Car
+  3: Cyclist
+  4: DontCare
+  5: Misc
+  6: Van
+  7: Tram
+  8: Person_sitting
