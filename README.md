@@ -10,7 +10,7 @@ Due to the large size of the dataset the images and annotations have not been up
    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    pip install opencv-python-headless
 
-Note: from the torch site get the corrsponding CUDA supported torch version according to your configuration.
+Note: from the torch site get the corresponding CUDA supported torch version according to your configuration.
 
 # KITTI Dataset preprocessing
 url: https://www.kaggle.com/datasets/klemenko/kitti-dataset
