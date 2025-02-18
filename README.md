@@ -11,3 +11,6 @@
 Note: from the torch site get the corrsponding CUDA supported torch version according to your configuration.
 
 # KITTI Dataset preprocessing
+# Selection of Dataset and assign Images to different clients.
+# ZOD Dataset preprocessing
+# SMVFL Implementation
