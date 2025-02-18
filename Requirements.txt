@@ -1,8 +1,8 @@
 pip install flower
 pip install ultralytics
-pip install torch
-pip install torchvision
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install opencv-python-headless
 
 Dataset uninstall
 Successfully uninstalled pycocotools-2.0.7
+Python 3.12.2
