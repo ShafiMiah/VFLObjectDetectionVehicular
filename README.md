@@ -1,4 +1,5 @@
 # Vertical Federated Object Detection for Vehicular Networks
+Due to the large size of the dataset the images and annotations have not been uploaded to the git repository. Interested readers are requested to download the dataset from corresponding site and pre-process according to the instruction.
 # Packages and requirement.
 1. Python version 3.9 or higher
 2. Run following commands to install the corresponding Packages.
