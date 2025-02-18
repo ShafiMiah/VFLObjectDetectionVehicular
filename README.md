@@ -13,7 +13,7 @@ Due to the large size of the dataset the images and annotations have not been up
 Note: from the torch site get the corresponding CUDA supported torch version according to your configuration.
 
 # KITTI Dataset preprocessing
-url: https://www.kaggle.com/datasets/klemenko/kitti-dataset
+Url: https://www.kaggle.com/datasets/klemenko/kitti-dataset
 
 # Selection of Dataset and assign Images to different clients.
 # ZOD Dataset preprocessing
